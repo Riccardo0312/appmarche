@@ -1,0 +1,92 @@
+/* Contenitore principale, spostato verso l’alto */
+.strutture-container {
+    max-width: 800px;
+    margin: 2rem auto 0 auto; /* sposta verso l’alto */
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Titolo */
+  .strutture-container h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Gruppo bottoni */
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  
+  /* Pulsanti */
+  .button {
+    padding: 0.6rem 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Sezione ricerca */
+  .search-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .search-section select {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Risultati */
+  .results {
+    margin-top: 2rem;
+  }
+  
+  .results h3 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Card per ogni struttura */
+  .result-item {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .result-item strong {
+    color: #333;
+  }
+  
+  /* Messaggi */
+  .loading-message,
+  .empty-message {
+    margin-top: 1.5rem;
+    color: #555;
+    font-style: italic;
+    text-align: center;
+  }
